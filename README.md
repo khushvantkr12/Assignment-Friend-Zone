@@ -89,6 +89,7 @@ backend/
 
 ### 🏠 **Home Page**  
 <img width="790" alt="{3ABCB896-7647-4D23-8306-336C1CCA4130}" src="https://github.com/user-attachments/assets/ff39af1b-a2f7-41dc-90e5-7a868e201107" />
+<img width="841" alt="{1F25749B-C57D-4980-842C-9C1A8F753FBC}" src="https://github.com/user-attachments/assets/753455d1-6336-4427-b55f-50c18225af96" />
 
 ---
 
