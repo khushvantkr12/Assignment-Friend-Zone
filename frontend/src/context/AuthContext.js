@@ -7,7 +7,6 @@ export const AuthContext = createContext();
 export const AuthProvider = ({ children }) => {
     const [token, setToken] = useState(localStorage.getItem('token'));
     const [isAuthenticated, setIsAuthenticated] = useState(!!token);
-    const [flag,setFlag]=useState(false);
 
     useEffect(() => {
         if (token) {

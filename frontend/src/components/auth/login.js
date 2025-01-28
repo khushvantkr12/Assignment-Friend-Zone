@@ -6,7 +6,7 @@ import toast from 'react-hot-toast';
 
 const Login = () => {
     const navigate = useNavigate(); // Initialize navigate
-    const { setToken,setFlag} = useContext(AuthContext);// Modify AuthContext to include setAuthToken if needed
+    const { setToken} = useContext(AuthContext);// Modify AuthContext to include setAuthToken if needed
     const [formData, setFormData] = useState({
         username: '',
         password: '',

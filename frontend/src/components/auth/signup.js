@@ -1,18 +1,17 @@
-import React, { useState, useContext } from 'react';
-import { AuthContext } from '../../context/AuthContext';
+import React, { useState} from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import api from '../../services/api'; // Updated import
 import toast from 'react-hot-toast';
 
 const Signup = () => {
-    const { setToken } = useContext(AuthContext); // Updated to setToken
+    
     const navigate = useNavigate(); // Initialize navigate
     const [formData, setFormData] = useState({
         username: '',
         password: '',
     });
 
-    const { username, password, interests } = formData;
+    const { username, password } = formData;
 
     const onChange = e => setFormData({ ...formData, [e.target.name]: e.target.value });
 

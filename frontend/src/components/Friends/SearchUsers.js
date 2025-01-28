@@ -1,10 +1,9 @@
-import React, { useState, useContext } from 'react';
-import { AuthContext } from '../../context/AuthContext';
+import React, { useState} from 'react';
 import api from '../../services/api'; // Updated import
 import toast from 'react-hot-toast';
 
 const SearchUsers = () => {
-    const { isAuthenticated } = useContext(AuthContext);
+    //const { isAuthenticated } = useContext(AuthContext);
     const [query, setQuery] = useState('');
     const [users, setUsers] = useState([]);
     const [loading, setLoading] = useState(false);
