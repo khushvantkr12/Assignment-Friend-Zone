@@ -12,7 +12,10 @@ connectDB();
 
 // Middleware
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+    origin: ['https://assignment-friend-zone.onrender.com'],
+    credentials: true,
+}));
 
 // Define Routes
 app.use('/api/auth', require('./routes/auth'));
