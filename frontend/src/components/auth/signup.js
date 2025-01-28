@@ -23,6 +23,7 @@ const Signup = () => {
                 password,
                 
             });
+            console.log('Signup:', response.data);
             //localStorage.setItem('token', response.data.token);
             //setToken(response.data.token); // Use setToken instead of setAuthToken
 
