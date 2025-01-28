@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an Axios instance
 const api = axios.create({
-    baseURL: process.env.REACT_APP_API_BASE_URL || '/api',
+    baseURL:'https://assignment-friend-zone.onrender.com/api',
     timeout: 10000, // 10 seconds timeout
 });
 
